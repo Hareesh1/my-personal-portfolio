@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> MY PERSONAL PORTFOLIO WEBSITE </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8beaa24d13.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="/images/logo.png" class="logo">
+
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+            
+        </nav>
+        <div class="header-text">
+            <p> WEB DEVLOPER </p>
+            <h1>Hi This is <span>Hareesh</span><br> from India </h1>
+            
+            
+        </div>
+    </div>
+</div>
+<!----------about--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/old images/My project-2.png">
+                
+            </div>
+            <div class="about-col-2">
+                <h1>About Me</h1>
+                <p>I am a student pursuing my BTech degree at jansons institute of technology From a young age, 
+                   I have had a passion for design, which sparked my interest in web design. As I delved deeper 
+                   into this field, I gained a comprehensive understanding of web development and competitive 
+                   programming. I always wanted to design and create someting that could help my growth in my career
+                   I am so keen to know about evolving technologies and drewl them as I found them so  amsuing and interesting </p>
+            
+                   
+                    <div class="d-flex flex-row justify-content-center">
+                        
+                    <div class="skills">
+                        <h1> skills</h1>
+                        <ul>
+                            <li> python <span class="text-colour">        - intermediate</span></li>
+                            <li> data analitics<span class="text-colour"> - intermediate</span></li>
+                            <li> web devolpment<span class="text-colour"> - intermediate</span></li>
+                            <li> basic of java<span class="text-colour">  - beginner</span></li>
+                            <li> photoshop<span class="text-colour">      -advance</span></li>
+                            <li> adobe primere<span class="text-colour">  -intermediate</span></li>
+                            <li> figma<span class="text-colour">          - intermediate</span></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="skills">
+                        <h1>Education</h1>
+                        
+                        <ul>
+                            <li class="skills"> <span class="text-colour">Graduation :</span> jansons institute of technology  Tamilnadu </li>
+                                <li>→ currently I am persuing my bachelor's dregree in artificial intelligence and data science 
+                                    at anna university affiliated institution
+
+                                </li>
+                                <li class="skills"> <span class="text-colour">Intermediate </span>: Narayana junior college  Andhra Pardesh</li>
+                                <li>→I have completed my +2 at narayana junior college with a percentage of 83 
+                                     
+
+                                </li>
+                                <li class="skills"><span class="text-colour">Schooling</span>Schooling : Ratnam high school , Andhra Pradesh</li>
+                                <li>→I am have completed my high school with state board syllubus of AndhraPradesh including Physics, Mathematics, Biology and Chesmistry.
+
+                                </li
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+    
+                    
+            </div>
+
+        </div>
+    </div>
+    <a href="#" class="btn">see more</a>
+</div>
+    
+        
+
+           
+        
+        
+            
+<!-------------services--------------->
+<div id="services">
+    <div id="container">
+        <h1 class="subtitle">MyServices</h1>
+        <div class="services-list">
+            <div >
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>i can design web pages and websites</p>
+                <a href="#">learn more</a>
+            </div>
+            <div >
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/XI Design</h2>
+                <p>I can make designs using figma and adobe primier  </p>
+                <a href="#">learn more</a>
+            </div>
+            <div >
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>APP Development</h2>
+                <p>i can only make the blue printt of the app and yet to learn </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>iot </h2>
+                <p> IOT is the emerging technology need to be learned </p>
+                <a href="#">learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!----------------my work-------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="worklist">
+          <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+                <h3>portfolio</h3>
+                <p> this is my first project and i have to gain more experience by  doing as many projects  </p>
+                
+                  <a href="#"><i class="fas fa-external-link-alt"></i></a>
+               
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>e-commers website </h3>
+                <p>this is a ecommerse website of cloth and accesories  </p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3></h3>
+                <p> This app helps you to listen your choice of music.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <a href="#" class="btn">see more</a>
+</div>
+<!---------------------------contact---------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>hareeshkadapaka95@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>+916302545147</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/hareesh-kadapaka-513770252?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bid95qDRHQ%2FuetFwAFNox2w%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download Resume</a>
+
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright<i class="fa-regular fa-copyright"></i> 2023 Developed by Hareesh</p>
+    </div>
+</div>
+
+    
+</body>
+</html>
